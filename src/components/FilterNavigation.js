@@ -41,8 +41,6 @@ const FilterNavigation = ({ filters, onFilterChange }) => {
               <option value="">All</option>
               <option value="$">$</option>
               <option value="$$">$$</option>
-              <option value="$$$">$$</option>
-              <option value="$$$$">$$$$</option>
             </select>
           </div>
 
