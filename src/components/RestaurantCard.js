@@ -22,14 +22,14 @@ const RestaurantCard = ({ restaurant, onLearnMore }) => {
       </div>
       
       <div className="p-4 flex flex-col flex-grow">
-        <h3 className="font-semibold text-lg mb-2 line-clamp-2">{restaurant.name}</h3>
+        <h3 className="font-semibold text-lg mb-3 line-clamp-2 h-14 flex items-start">{restaurant.name}</h3>
         
-        <div className="flex items-center gap-1 mb-2">
+        <div className="flex items-center gap-1 mb-3 h-5">
           {renderStars(restaurant.rating)}
           <span className="text-sm text-gray-600 ml-1">({restaurant.rating})</span>
         </div>
         
-        <div className="text-sm text-gray-600 mb-2">
+        <div className="text-sm text-gray-600 mb-3 h-5 flex items-center">
           {restaurant.categories[0]}
         </div>
         
